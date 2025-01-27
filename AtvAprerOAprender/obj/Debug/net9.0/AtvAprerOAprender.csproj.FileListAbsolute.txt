@@ -1,0 +1,14 @@
+/home/uriel/Documentos/Programacao/Csharp - C#/Consoledojefi/AtvAprerOAprender/obj/Debug/net9.0/AtvAprerOAprender.GeneratedMSBuildEditorConfig.editorconfig
+/home/uriel/Documentos/Programacao/Csharp - C#/Consoledojefi/AtvAprerOAprender/obj/Debug/net9.0/AtvAprerOAprender.AssemblyInfoInputs.cache
+/home/uriel/Documentos/Programacao/Csharp - C#/Consoledojefi/AtvAprerOAprender/obj/Debug/net9.0/AtvAprerOAprender.AssemblyInfo.cs
+/home/uriel/Documentos/Programacao/Csharp - C#/Consoledojefi/AtvAprerOAprender/obj/Debug/net9.0/AtvAprerOAprender.csproj.CoreCompileInputs.cache
+/home/uriel/Documentos/Programacao/Csharp - C#/Consoledojefi/AtvAprerOAprender/bin/Debug/net9.0/AtvAprerOAprender
+/home/uriel/Documentos/Programacao/Csharp - C#/Consoledojefi/AtvAprerOAprender/bin/Debug/net9.0/AtvAprerOAprender.deps.json
+/home/uriel/Documentos/Programacao/Csharp - C#/Consoledojefi/AtvAprerOAprender/bin/Debug/net9.0/AtvAprerOAprender.runtimeconfig.json
+/home/uriel/Documentos/Programacao/Csharp - C#/Consoledojefi/AtvAprerOAprender/bin/Debug/net9.0/AtvAprerOAprender.dll
+/home/uriel/Documentos/Programacao/Csharp - C#/Consoledojefi/AtvAprerOAprender/bin/Debug/net9.0/AtvAprerOAprender.pdb
+/home/uriel/Documentos/Programacao/Csharp - C#/Consoledojefi/AtvAprerOAprender/obj/Debug/net9.0/AtvAprerOAprender.dll
+/home/uriel/Documentos/Programacao/Csharp - C#/Consoledojefi/AtvAprerOAprender/obj/Debug/net9.0/refint/AtvAprerOAprender.dll
+/home/uriel/Documentos/Programacao/Csharp - C#/Consoledojefi/AtvAprerOAprender/obj/Debug/net9.0/AtvAprerOAprender.pdb
+/home/uriel/Documentos/Programacao/Csharp - C#/Consoledojefi/AtvAprerOAprender/obj/Debug/net9.0/AtvAprerOAprender.genruntimeconfig.cache
+/home/uriel/Documentos/Programacao/Csharp - C#/Consoledojefi/AtvAprerOAprender/obj/Debug/net9.0/ref/AtvAprerOAprender.dll
