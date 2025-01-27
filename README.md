@@ -1,60 +1,75 @@
 Projeto de Funções e Procedimentos em C#
-Descrição
 
-Este projeto consiste em implementar diversas funções e procedimentos para resolver problemas matemáticos e lógicos em C#. As funcionalidades incluem cálculos básicos, manipulação de números, estatísticas, conversões de unidades e desafios matemáticos. É uma excelente oportunidade para praticar lógica de programação e algoritmos.
-Funcionalidades Implementadas
+Este repositório contém uma série de funções e procedimentos em C# destinados a resolver problemas matemáticos e lógicos. O projeto abrange uma variedade de operações, como cálculos de equações quadráticas, manipulação de números, conversões de unidades e até desafios matemáticos. É um excelente exercício para praticar lógica de programação e algoritmos.
+Funcionalidades
+1. Função: Verificar se um número é positivo ou não
 
-    Verificar se um número é positivo (bool)
-    Uma função que recebe um valor e retorna true se for positivo e false caso contrário.
+    Descrição: Recebe um valor e retorna true se o número for positivo, caso contrário retorna false.
 
-    Verificar se um número é nulo (bool)
-    Uma função que recebe um valor e retorna true se for igual a zero e false caso contrário.
+2. Função: Verificar se um número é nulo ou não
 
-    Calcular o delta de uma equação do segundo grau
-    Uma função que recebe os coeficientes aa, bb, cc e retorna o delta (Δ=b2−4acΔ=b2−4ac).
+    Descrição: Recebe um valor e retorna true se o número for zero (0), caso contrário retorna false.
 
-    Calcular as raízes de uma equação do segundo grau
-    Um procedimento que utiliza as funções anteriores para calcular as raízes reais ou complexas de uma equação ax2+bx+c=0ax2+bx+c=0. Inclui:
-        Verificação de a≠0a=0.
-        Cálculo das raízes reais ou complexas com base no valor de ΔΔ.
+3. Função: Calcular o delta de uma equação do 2º grau
 
-    Retornar o maior de dois números
-    Função que recebe dois números e retorna o maior valor.
+    Descrição: Recebe os coeficientes aa, bb, cc e retorna o valor do delta (Δ=b2−4acΔ=b2−4ac).
 
-    Retornar o menor de dois números
-    Função que recebe dois números e retorna o menor valor.
+4. Procedimento: Calcular as raízes de uma equação do 2º grau
 
-    Retornar o maior de três números
-    Função que utiliza a função do item 5 para determinar o maior de três números.
+    Descrição: Utiliza as funções anteriores para calcular as raízes de uma equação quadrática ax2+bx+c=0ax2+bx+c=0.
+        Verifica se a≠0a=0.
+        Se o delta (ΔΔ) for maior ou igual a zero, calcula as raízes reais.
+        Se o delta for negativo, calcula as raízes complexas.
 
-    Retornar o menor de três números
-    Função que utiliza a função do item 6 para determinar o menor de três números.
+5. Função: Encontrar o maior de dois números
 
-    Simular o lançamento de um dado
-    Função que retorna um número aleatório entre 1 e 6.
+    Descrição: Recebe dois números e retorna o maior valor.
 
-    Simular 100 lançamentos de dado e calcular a frequência de cada número
-    Procedimento que utiliza a função do item 9 para lançar o dado 100 vezes e exibir a porcentagem de ocorrência de cada número.
+6. Função: Encontrar o menor de dois números
 
-    Conversão entre Celsius e Fahrenheit
-    Procedimento que permite o usuário escolher entre converter uma temperatura de Celsius para Fahrenheit ou vice-versa. Utiliza um comando switch para realizar a conversão.
+    Descrição: Recebe dois números e retorna o menor valor.
 
-    Calcular a média das notas mais altas de 3 provas
-    Procedimento que:
-        Calcula a média considerando as 3 provas.
-        Calcula a média considerando apenas as 2 maiores notas.
-        Exibe a maior e a menor nota.
+7. Função: Encontrar o maior de três números
 
-Desafios Adicionais
+    Descrição: Recebe três números e retorna o maior valor, utilizando a função do item 5.
 
-    Encontrar todos os números primos até 1000
-    Procedimento que identifica e imprime todos os números primos no intervalo de 1 a 1000.
+8. Função: Encontrar o menor de três números
 
-    Calcular o MDC (Máximo Divisor Comum)
-    Procedimento que recebe dois números inteiros e retorna seu MDC usando o algoritmo de Euclides.
+    Descrição: Recebe três números e retorna o menor valor, utilizando a função do item 6.
 
-    Encontrar números perfeitos até 1000
-    Procedimento que identifica e imprime todos os números perfeitos até 1000.
+9. Função: Lançamento de dado
 
-    Inverter um número inteiro
-    Procedimento que recebe um número inteiro e imprime seu valor com os dígitos invertidos. Por exemplo, dado 123, imprime 321.
+    Descrição: Retorna um número aleatório entre 1 e 6, simulando o lançamento de um dado.
+
+10. Procedimento: Lançar o dado 100 vezes
+
+    Descrição: Realiza 100 lançamentos de dado e conta quantas vezes cada número (de 1 a 6) apareceu.
+        Verifica se as ocorrências estão distribuídas de forma semelhante à probabilidade (aproximadamente 16,67% para cada número).
+
+11. Procedimento: Conversão entre Celsius e Fahrenheit
+
+    Descrição: O usuário escolhe se quer converter de Celsius para Fahrenheit ou de Fahrenheit para Celsius, e a conversão é realizada usando um comando switch.
+        Fórmulas de conversão:
+            Celsius para Fahrenheit: F=95C+32F=59​C+32
+            Fahrenheit para Celsius: C=59(F−32)C=95​(F−32)
+
+12. Procedimento: Calcular a média das notas mais altas de 3 provas
+
+    Descrição: Recebe três notas, calcula a média das três e a média das duas notas mais altas. Exibe também a maior e a menor nota.
+
+Desafios
+Desafio 1: Encontrar todos os números primos até 1000
+
+    Descrição: Identifica e imprime todos os números primos no intervalo de 1 a 1000. Um número primo é aquele que é divisível apenas por 1 e ele mesmo.
+
+Desafio 2: Calcular o MDC (Máximo Divisor Comum)
+
+    Descrição: Recebe dois números inteiros e retorna o máximo divisor comum (MDC) usando o algoritmo de Euclides.
+
+Desafio 3: Encontrar os números perfeitos até 1000
+
+    Descrição: Identifica e imprime todos os números perfeitos até 1000. Um número perfeito é aquele que é igual à soma de seus divisores próprios (exceto ele mesmo).
+
+Desafio 4: Inverter um número
+
+    Descrição: Recebe um número inteiro e imprime seu valor com os dígitos invertidos. Exemplo: para o número 123, imprime 321.
